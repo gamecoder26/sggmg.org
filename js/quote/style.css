@@ -1,0 +1,48 @@
+ul#navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top:90%;
+    right: 0px;
+    list-style: none;
+    z-index:9999;
+}
+ul#navigation li {
+    width:230px;
+	
+}
+ul#navigation li a {
+    display: block;
+    margin-right: -2px;
+    width:230px;
+    height:85px;    
+    -moz-border-radius-topleft: 10px;
+-webkit-border-top-left-radius: 10px;
+ border-top-left-radius: 10px;
+-moz-border-radius-bottomleft: 10px;
+-webkit-border-bottom-left-radius: 10px;
+border-bottom-left-radius: 10px;
+border:solid 1px #d3d2d2;
+
+}
+ul#navigation .home a{
+    background-image:url(../../images/mail_send.jpg);
+}
+ul#navigation .about a      {
+    background-image: url(../images/id_card.html);
+}
+ul#navigation .search a      {
+    background-image: url(../images/search.html);
+}
+ul#navigation .podcasts a      {
+    background-image: url(../images/ipod.html);
+}
+ul#navigation .rssfeed a   {
+    background-image: url(../images/rss.html);
+}
+ul#navigation .photos a     {
+    background-image: url(../images/camera.html);
+}
+ul#navigation .contact a    {
+    background-image: url(../images/mail.html);
+}
